@@ -12,8 +12,19 @@ command which adds all the modules currently running and puts them into
 ```bash
 hugo mod gen
 ```
-The images here are actually imported from the theme. To override and add yur
-own images, you need to create a image directory.
+
+## How to use this template
+
+There are two different layouts:
+
+1. The first layout takes posts that are of type *featured* and puts them in
+   the top as a set of images. The *category* is used as the subtitle and then
+   the *title* is all you see. the content appears when you click.
+   The *post* type goes in the traditional blog format below.
+2. The second layout reformats this to the traditional blog format. You get
+   text based on the [config.yaml](config.yaml) parameters so for instance the
+   bio goes on the front as does the author. You need to edit the layout to
+   change this.
 
 ## Based on  Hugo Parsa Forestry Starter
 
@@ -36,7 +47,7 @@ Import to Forestry in one single click!
 
 This project has been pre-configured to work with
 [Forestry](https://forestry.io), just import your repository ✨. \ Any changes
-you make will be commited back to the repo, and deployed if you're using
+you make will be committed back to the repo, and deployed if you're using
 Netlify.
 
 ## Customization
@@ -66,6 +77,14 @@ cd hugo-parsa-forestry
 
 # Start local dev server
 hugo server
+
+## Adding Images
+
+The images are currently kept in the Theme core repo.
+
+The images here are actually imported from the theme. To override and add your
+own images, you need to create a image directory and then it will replicate
+what was in the theme image and put them there for you to edit.
 ```
 
 For more information, see [official Hugo documentation](https://gohugo.io/getting-started/).
