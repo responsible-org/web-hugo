@@ -42,7 +42,7 @@ params:
   logo: images/logo.png
   home: Home
   layout: "1"
-  description: This is meta description
+  description: Organization Website
   preloader: true
   search: true
   author: Responsible.org
