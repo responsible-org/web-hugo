@@ -1,6 +1,13 @@
-# Hugo Parsa Forestry Starter
+# Responsible.org Website
 
-[Hugo Parsa Theme developed by Themefischer](https://github.com/themefisher/parsa-hugo) for Forestry CMS.
+We are deployedon Netlify using Forester CMS for content
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/12828934-d238-42ed-beaf-c9de1e5c8c23/deploy-status)](https://app.netlify.com/sites/zen-ardinghelli-8cc957/deploys)
+
+## Based on  Hugo Parsa Forestry Starter
+
+[Hugo Parsa Theme developed by
+Themefischer](https://github.com/themefisher/parsa-hugo) for Forestry CMS.
 
 ![Parsa Theme Preview](static/images/screenshot.jpg)
 
@@ -16,12 +23,16 @@ Import to Forestry in one single click!
 
 ![Forestry user interface](static/images/hugo-parsa-forestry.jpg)
 
-This project has been pre-configured to work with [Forestry](https://forestry.io), just import your repository ✨. \
-Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
+This project has been pre-configured to work with
+[Forestry](https://forestry.io), just import your repository ✨. \ Any changes
+you make will be commited back to the repo, and deployed if you're using
+Netlify.
 
 ## Customization
 
-You can customize the theme through the [`config.toml` file](https://github.com/forestryio/hugo-parsa-forestry/blob/master/config.toml). Those values are accessible from within Forestry.
+You can customize the theme through the [`config.toml`
+file](https://github.com/forestryio/hugo-parsa-forestry/blob/master/config.toml).
+Those values are accessible from within Forestry.
 
 ## Deployment and hosting with Netlify
 
@@ -32,7 +43,8 @@ Import your site in [Netlify](https://netlify.com)
 3. Set the publish directory to: `public`
 4. Set `HUGO_VERSION` to `0.74.3`
 
-That's it, now your site gets deployed automatically on `git push` or when saving documents from Forestry.
+That's it, now your site gets deployed automatically on `git push` or when
+saving documents from Forestry.
 
 ## Development
 
