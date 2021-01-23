@@ -3,7 +3,7 @@ title: Who should own a gun
 date: 2019-05-14T14:46:10.000+06:00
 description: This is meta description
 type: featured
-image: images/featured-post/post-3.jpg
+image: "/images/noun_government_101826.png"
 categories:
 - Ownership
 tags: []
