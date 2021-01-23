@@ -2,7 +2,7 @@
 title: Seminars
 date: 2020-12-16T23:58:00+00:00
 description: SEminarsThis is meta description
-type: featured
+type: post
 image: images/featured-post/post-1.jpg
 categories:
 - seminar
