@@ -3,11 +3,12 @@ baseURL: "/"
 languageCode: en-us
 title: Responsible.org
 module:
-  # mounts removes the defaults and this will be handled as a union
   # https://gohugo.io/hugo-modules/configuration/#module-config-mounts
+  # The above is incorrect, with hugo 0.74, the default directories
+  # are unioned with the imports below run `hugo config mounts` to see
   mounts:
-    - source: static
-      target: static
+    - source: foo
+      target: static/images
   imports:
   - path: github.com/themefisher/parsa-hugo
     mounts:
