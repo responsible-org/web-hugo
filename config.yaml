@@ -3,22 +3,13 @@ baseURL: "/"
 languageCode: en-us
 title: Responsible.org
 module:
-  # https://gohugo.io/hugo-modules/configuration/#module-config-mounts
-  # The above is incorrect, with hugo 0.74, the default directories
-  # are unioned with the imports below run `hugo config mounts` to see
-  # Note that static is not included in the defaults so need to add explicitly
-  # This also demonstrates that you can layer together contents
   mounts:
-    # an apparent bug, the mapping of static to static does not work
-    # but it does work for subdirectories not clear why
-    - source: static
-      target: static
-    # had to insert this mount because the above doesn't work
-    # probably because themefisher mounts at both points
-    - source: static/images
-      target: static/images
-    - source: assets
-      target: static/images
+  - source: static
+    target: static
+  - source: static/images
+    target: static/images
+  - source: assets
+    target: static/images
   imports:
   - path: github.com/themefisher/parsa-hugo
     mounts:
@@ -30,7 +21,7 @@ module:
       target: static
     - source: exampleSite/static/images
       target: static/images
-summaryLength: "100"
+summaryLength: "10"
 paginate: "6"
 outputs:
   home:
@@ -57,8 +48,8 @@ params:
     - link: plugins/search/search.js
   logo: images/logo.png
   home: Home
-  layout: "1"
-  description: Organization Website
+  layout: "2"
+  description: Responsible.org Website
   preloader: true
   search: true
   author: Responsible.org
