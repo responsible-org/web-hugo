@@ -46,14 +46,14 @@ params:
     - link: plugins/search/fuse.min.js
     - link: plugins/search/mark.js
     - link: plugins/search/search.js
-  logo: images/logo.png
+  logo: images/responsible.org.logo.medium.png
   home: Home
   layout: "2"
   description: Responsible.org Website
   preloader: true
   search: true
   author: Responsible.org
-  author_image: images/banner-img.png
+  author_image: images/nathan-dumlao-4_mJ1TbMK8A-unsplash.jpg
   bio: |
     Responsible.org promotes responsible gun purchase, ownership, and use. We
     feature information on public policy and legislative issues as well as research

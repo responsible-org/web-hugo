@@ -26,6 +26,15 @@ There are two different layouts:
    bio goes on the front as does the author. You need to edit the layout to
    change this.
 
+If you want to change the layouts then:
+
+1. Run `hugo mod vendor` to get the latest template files from the other themes
+2. Browse into [_vendor](_vendor) and look for the layout, for instance to
+   modify the main page layout, look in
+   [_vendor/github.com/themefisher/parsa-hugo/layout](_vendor/github.com/themefisher/parsa-hugo/layout)
+   and copy the appropriate layout into [layout](layout) and this should be
+   used instead of the default in themese.
+
 ## Based on  Hugo Parsa Forestry Starter
 
 [Hugo Parsa Theme developed by
