@@ -15,4 +15,4 @@ A difficult question, but a responsible owner will ask, what do you need and why
 
 ![](../images/post-img.jpg)
 
-Ask about our training classes and checklists to determine ownership criteria.
+Ask about our training classes and checklists to determine ownership criteria. Please add yourself to our mailing list if you need more information.
