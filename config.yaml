@@ -7,7 +7,7 @@ module:
   # The above is incorrect, with hugo 0.74, the default directories
   # are unioned with the imports below run `hugo config mounts` to see
   mounts:
-    - source: foo
+    - source: my-images
       target: static/images
   imports:
   - path: github.com/themefisher/parsa-hugo
