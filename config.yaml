@@ -8,12 +8,17 @@ module:
   # are unioned with the imports below run `hugo config mounts` to see
   # Note that static is not included in the defaults so need to add explicitly
   # This also demonstrates that you can layer together contents
-  # from two directories into a single one
   mounts:
-    - source: my-images
-      target: static/images
+    # an apparent bug, the mapping of static to static does not work
+    # but it does work for subdirectories not clear why
     - source: static
       target: static
+    # had to insert this mount because the above doesn't work
+    # probably because themefisher mounts at both points
+    - source: static/images
+      target: static/images
+    - source: assets
+      target: static/images
   imports:
   - path: github.com/themefisher/parsa-hugo
     mounts:
