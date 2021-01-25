@@ -1,6 +1,6 @@
 ---
-title: Research
-date: 2021-01-06T04:00:00+00:00
+title: Why Responsible Ownership?
+date: 2021-01-06T04:00:00.000+00:00
 description: This is meta description
 type: post
 image: images/masonary-post/post-1.jpg
