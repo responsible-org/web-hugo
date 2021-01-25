@@ -4,11 +4,12 @@ languageCode: en-us
 title: Responsible.org
 module:
   mounts:
+    # For some reason the first static does not include static/images
+    # Could be because of the way that the new imports
+    # overwrites static/images?
   - source: static
     target: static
   - source: static/images
-    target: static/images
-  - source: assets
     target: static/images
   imports:
   - path: github.com/themefisher/parsa-hugo
