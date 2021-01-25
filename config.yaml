@@ -22,7 +22,7 @@ module:
       target: static
     - source: exampleSite/static/images
       target: static/images
-summaryLength: "10"
+summaryLength: 20
 paginate: "6"
 outputs:
   home:
@@ -56,7 +56,8 @@ params:
   author: Responsible.org
   author_image: images/nathan-dumlao-4_mJ1TbMK8A-unsplash.jpg
   bio: |
-    Responsible.org promotes responsible gun purchase, ownership, and use. We
+    Responsible.org&reg;
+    promotes responsible gun purchase, ownership, and use. We
     feature information on public policy and legislative issues as well as research
     services in the field. We also organize educational events focused on responsible
     gun ownership. We conduct virtual and in-person seminars, lectures, workshops,
@@ -67,16 +68,16 @@ params:
   contact_form_action: "#"
   google_analitycs_id: Your ID
   copyright: |
-    Copyright &copy; 2018-2020 Responsible.org.
+    Copyright &copy; 2018-2020 Responsible.org&reg;
     Theme by [themefisher.com](https://themefisher.com)
   instafeed:
     enable: true
     access_token: IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn
   social:
   - icon: ti-facebook
-    URL: https://facebook.com
+    URL: https://www.facebook.com/responsibleorg1
   - icon: ti-twitter-alt
-    URL: https://twitter.com
+    URL: https://twitter.com/responsibleorg1
   - icon: ti-linkedin
     URL: https://linkedin.com
   - icon: ti-github
