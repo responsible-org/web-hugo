@@ -23,7 +23,7 @@ module:
     - source: exampleSite/static/images
       target: static/images
 summaryLength: 20
-paginate: "6"
+paginate: 5
 outputs:
   home:
   - HTML

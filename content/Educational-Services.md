@@ -7,7 +7,11 @@ image: images/susan-yin-2JIvboGLeho-unsplash.jpg
 categories:
 - education
 tags:
-- overview
+- seminar
+- lecture
+- workshop
+- panel
+- forum
 
 ---
 At Responsible.org&reg;, we offer a wide variety of educational services.
