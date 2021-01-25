@@ -1,9 +1,9 @@
 ---
 title: Why Responsible Ownership?
-date: 2021-01-06T04:00:00.000+00:00
+date: 2021-01-06T04:00:00+00:00
 description: This is meta description
 type: post
-image: images/masonary-post/post-1.jpg
+image: "/images/icons/noun_Charity_3006759.png"
 categories:
 - Food
 tags:
