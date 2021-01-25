@@ -1,7 +1,7 @@
 ---
 title: Contact
 date: 2019-05-14T14:46:10.000+06:00
-description: Contact from
+description: Contact Form
 image: images/e7c028ab-3657-422f-af26-561901267226.jpeg
 
 ---
