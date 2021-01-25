@@ -5,10 +5,8 @@ description: This is meta description
 type: post
 image: "/images/icons/noun_Charity_3006759.png"
 categories:
-- Food
-tags:
-- Photos
-- Food
+- Information
+tags: []
 
 ---
 Some of the latest fact on gun usage even during this Pandemic
