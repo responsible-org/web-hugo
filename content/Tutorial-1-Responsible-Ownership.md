@@ -2,7 +2,7 @@
 title: Step 1. The Decision to Buy
 date: 2019-05-15T14:46:10+06:00
 description: Step 1 of 5 The Decision to Buy
-type: "post"
+type: "featured"
 image: images/javier-allegue-barros-C7B-ExXpOIE-unsplash.jpg
 categories: 
   - Ownership
