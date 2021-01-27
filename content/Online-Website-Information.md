@@ -11,7 +11,7 @@ tags:
   - information
 ---
 
-Use the Responsible.org&reg; website for online information with facts and
+Use the Responsible.org&trade; website for online information with facts and
 information about responsible gun ownership, possession and use. While we are
 always updating this site, some of the content that you find here includes:
 

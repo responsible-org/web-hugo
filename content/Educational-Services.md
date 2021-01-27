@@ -14,7 +14,7 @@ tags:
 - forum
 
 ---
-At Responsible.org&reg;, we offer a wide variety of educational services.
+At Responsible.org&trade;, we offer a wide variety of educational services.
 Although the COVID-19 Pandemic has severely restricted our ability to offer
 these, we hope to restart as these as soon as possible, so please stay tuned.
 

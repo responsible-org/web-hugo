@@ -12,7 +12,7 @@ tags:
   - Social Media
 ---
 
-Responsible.org&reg;'s latest foray into promotion of the responsible gun
+Responsible.org&trade;'s latest foray into promotion of the responsible gun
 ownership possession and use is to move beyond the written world. We know that
 it's much easier to understand things when we provide:
 

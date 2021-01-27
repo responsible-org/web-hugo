@@ -12,7 +12,7 @@ tags:
 - reports
 
 ---
-Responsible.org&reg; have a broad range of publications that are available to
+Responsible.org&trade; have a broad range of publications that are available to
 you to keep you up to date on the latest trends in firearms policy, research
 and news. These include:
 
