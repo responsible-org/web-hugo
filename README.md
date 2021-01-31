@@ -51,8 +51,6 @@ Import to Forestry in one single click!
 
 ## Content Management
 
-![Forestry user interface](static/images/hugo-parsa-forestry.jpg)
-
 This project has been pre-configured to work with
 [Forestry](https://forestry.io), just import your repository ✨. \ Any changes
 you make will be committed back to the repo, and deployed if you're using
