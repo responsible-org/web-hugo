@@ -41,8 +41,6 @@ If you want to change the layouts then:
 [Hugo Parsa Theme developed by
 Themefischer](https://github.com/themefisher/parsa-hugo) for Forestry CMS.
 
-![Parsa Theme Preview](static/images/screenshot.jpg)
-
 Import to Forestry in one single click!
 
 [![Import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=forestryio/hugo-parsa-forestry&engine=hugo&version=0.74.3)
