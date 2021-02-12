@@ -67,7 +67,7 @@ params:
   email: info@responsible.org
   address: 15433 NE 95th St, Redmond, WA 98052
   contact_form_action: "#"
-  google_analitycs_id: Your ID
+  google_analytics_id: Your ID
   copyright: Copyright &copy; 2018-2020 Responsible.org&trade;.Theme by [themefisher.com](https://themefisher.com)
   # puts an instagram feed at the bottom, need an access token
   instafeed:
