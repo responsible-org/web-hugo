@@ -14,16 +14,25 @@ command which adds all the modules currently running and puts them into
 hugo mod vendor
 ```
 
-## Updating to latest theme
+## Installation into netlify
 
-The theme is pinned in [go.mod](go.mod) and this is set in
-[config.yaml](config.yaml) in the module.imports.path location
-to update the modules, run as [Hugo Modules](https://gohugo.io/hugo-modules/use-modules/)
-explains:
+The steps are:
 
-```shell
-hugo mod get -u ./...
-```
+1. Fork this repo into a the new organization
+2. Run `make netlify` to make sure variables are set. This requires the @richtong
+   fabulous [bin](https://github.com/richtong/bin)
+   [lib](https://github.com/richtong/lib) helper repos
+
+If you do not use these then run, this repo uses Git LFS so run:
+
+```bash
+brew install netlify-cli
+# Normally for free accounts, you have a separate login per site
+netlify login
+# links this to netlify
+netlify link
+netlify env:set GIT_LFS_ENABLED true
+``````
 
 ## How to use this template
 
@@ -46,6 +55,28 @@ If you want to change the layouts then:
    [_vendor/github.com/themefisher/parsa-hugo/layout](_vendor/github.com/themefisher/parsa-hugo/layout)
    and copy the appropriate layout into [layout](layout) and this should be
    used instead of the default in themese.
+
+## Updating to latest theme
+
+The theme is pinned in [go.mod](go.mod) and this is set in
+[config.yaml](config.yaml) in the module.imports.path location
+to update the modules, run as [Hugo Modules](https://gohugo.io/hugo-modules/use-modules/)
+explains:
+
+```shell
+hugo mod get -u ./...
+hugo mod vendor
+```
+
+There are certain pages that are overridden by the theme, you will have to do a
+manual merge to get these correct. So compare the files in [layouts](layouts)
+with the theme files in (_vendor/github.com)(_vendor/github.com) and you can
+pick up the changes.
+
+The main ones are in:
+
+- [layouts/index.html](layouts/index.html) where we delete
+the world `Blog`
 
 ## Based on  Hugo Parsa Forestry Starter
 

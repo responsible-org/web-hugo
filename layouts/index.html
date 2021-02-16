@@ -1,11 +1,11 @@
 {{ define "main" }}
 
-{{ if eq .Site.Params.layout "1" }}
+{{ if eq site.Params.layout "1" }}
 <!-- featured post -->
 <section class="overflow-hidden">
   <div class="container-fluid p-sm-0">
     <div class="row featured-post-slider">
-      {{ range (where .Site.RegularPages "Type" "featured")}}
+      {{ range (where site.RegularPages "Type" "featured")}}
       <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
         <article class="card bg-dark text-center text-white border-0 rounded-0">
           <img class="card-img rounded-0 img-fluid w-100" src="{{.Params.Image | absURL}}" alt="post-thumb">
@@ -24,7 +24,7 @@
 </section>
 <!-- /featured post -->
 
-{{ else if (eq .Site.Params.layout "2")}}
+{{ else if (eq site.Params.layout "2")}}
 
 <!-- hero area -->
 <section class="hero-section">
@@ -32,17 +32,17 @@
     <div class="row">
       <div class="col-lg-6 align-self-end">
         <h1 class="mb-0">Welcome</h1>
-        <h2 class="mb-100 title-border-lg">to <i>{{.Site.Params.author}}</i></h2>
-        <p class="mb-80 mr-5">{{.Site.Params.bio | markdownify }}</p>
-        <span class="font-secondary text-dark mr-3 mr-sm-5">Follow us :</span>
+        <h2 class="mb-100 title-border-lg">to <i>{{site.Params.author}}</i></h2>
+        <p class="mb-80 mr-5">{{site.Params.bio | markdownify }}</p>
+        <span class="font-secondary text-dark mr-3 mr-sm-5">Follow me :</span>
         <ul class="list-inline d-inline-block mb-5">
-          {{ range .Site.Params.social }}
+          {{ range site.Params.social }}
           <li class="list-inline-item mx-3"><a href="{{.URL}}" class="text-dark"><i class="{{.icon}}"></i></a></li>
           {{ end }}
         </ul>
       </div>
       <div class="col-lg-6 text-right">
-        <img class="img-fluid" src="{{.Site.Params.author_image | absURL}}" alt="banner-image">
+        <img class="img-fluid" src="{{site.Params.author_image | absURL}}" alt="banner-image">
       </div>
     </div>
   </div>
@@ -60,8 +60,8 @@
 <!-- blog post -->
 <section class="section">
   <div class="container">
-    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
-    {{ if eq .Site.Params.layout "1" }}
+    {{ $paginator := .Paginate (where site.RegularPages "Type" "post") }}
+    {{ if eq site.Params.layout "1" }}
     <div class="row masonry-container">
       {{ range $paginator.Pages }}
       <div class="col-lg-4 col-sm-6 mb-5">
@@ -76,7 +76,7 @@
       {{ end }}
     </div>
 
-    {{ else if (eq .Site.Params.layout "2")}}
+    {{ else if (eq site.Params.layout "2")}}
 
     <div class="row">
       {{ range $i,$p := (where $paginator.Pages "Type" "post") }}
