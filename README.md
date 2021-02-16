@@ -11,7 +11,18 @@ command which adds all the modules currently running and puts them into
 [_vendor](_vendor);
 
 ```bash
-hugo mod gen
+hugo mod vendor
+```
+
+## Updating to latest theme
+
+The theme is pinned in [go.mod](go.mod) and this is set in
+[config.yaml](config.yaml) in the module.imports.path location
+to update the modules, run as [Hugo Modules](https://gohugo.io/hugo-modules/use-modules/)
+explains:
+
+```shell
+hugo mod get -u ./...
 ```
 
 ## How to use this template
