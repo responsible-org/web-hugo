@@ -1,7 +1,8 @@
 ---
 # baseURL needs to be the real location of the system if it is / then it will
 # work for the test site
-baseURL: "/"
+BaseURL: "https:/w
+responsible.org"
 languageCode: en-us
 title: Responsible.org
 module:
