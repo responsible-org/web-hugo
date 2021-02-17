@@ -86,16 +86,18 @@ params:
     URL: https://github.com/responsible-org
 menu:
   main:
-    - name: Homepage
-      url: ''
-      weight: 1
-      hasChildren: true
-    - parent: Homepage
-      name: Homepage 1
-      url: homepage/home-1
-    - parent: Homepage
-      name: Homepage 2
-      url: homepage/home-2
+    # the placeholders for how to do submenus
+    #- name: Homepage
+      #url: ''
+      #weight: 1
+      #hasChildren: true
+    # How to link pages to the submenus
+    #- parent: Homepage
+    #  name: Homepage 1
+    #  url: homepage/home-1
+    #- parent: Homepage
+    #  name: Homepage 2
+    #  url: homepage/home-2
     - name: About
       URL: about
       weight: "2"
