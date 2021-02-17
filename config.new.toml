@@ -2,14 +2,41 @@
 baseURL = "https://responsible.org"
 languageCode = "en-us"
 title = "Responsible.org"
-theme = "parsa-hugo"
 summaryLength = "20"
 paginate = 5
 # google analytics
 googleAnalytics = "" # example : UA-123-45
 
-# using the module mounting to get the statis in the right place
+# if you have a theme then you need to fork 
+# https://github.com/themefisher/parsa/hugo into themes
+# theme = "parsa-hugo"
+# using the module mounting to get modules instead of the themes
+[[module.mounts]]
+source = "static"
+target = "static"
 
+[[module.mounts]]
+source = "static/images"
+target = "static/images"
+
+[[module.imports]]
+path = "github.com/themefisher/parsa-hugo"
+
+  [[module.imports.mounts]]
+  source = "layouts"
+  target = "layouts"
+
+  [[module.imports.mounts]]
+  source = "assets"
+  target = "assets"
+
+  [[module.imports.mounts]]
+  source = "static"
+  target = "static"
+
+  [[module.imports.mounts]]
+  source = "exampleSite/static/images"
+  target = "static/images"
 
 # output
 [outputs]
@@ -67,7 +94,7 @@ access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1Nmpx
 
   [[params.social]]
   icon = "ti-github"
-  url = "https://github.com/responsible-org
+  url = "https://github.com/responsible-org"
 
 # navigation
 
@@ -88,14 +115,14 @@ hasChildren = true
   url = "homepage/home-2"
 
 # this is from the old template
-#[[menu.main]]
-#name = "About"
-#url = "about"
-#weight = 2
-#[[menu.main]]
-#name = "Contact"
-#url = "contact"
-#weight = 3
+[[menu.main]]
+name = "About"
+url = "about"
+weight = 2
+[[menu.main]]
+name = "Contact"
+url = "contact"
+weight = 3
 
 # cookies
 [params.cookies]
@@ -130,6 +157,5 @@ mobile = "(307) 463-1680"
 email = "info@responsible.org"
 address = "15433 NE 95th St, Redmond, WA 98052"
 # Contact Form Action
-contact_form_action = "#"
 google_analytics_id = "Your ID"
 copyright = "Copyright &copy; 2018-2020 Responsible.org&trade;.Theme by [themefisher.com](https://themefisher.com)"
