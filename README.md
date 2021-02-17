@@ -56,6 +56,24 @@ If you want to change the layouts then:
    and copy the appropriate layout into [layout](layout) and this should be
    used instead of the default in themese.
 
+## Managing menu items
+
+The v2 of this links to top level pages so [content/about.md](content/about.md)
+is the about and in [config.yaml](config.yaml) sets this in the `menu` entries
+
+The other one is the [content/contact.md](content/contact.md) which is that
+page.
+
+If you want other parent pages, just create them and then point to them in
+config.yaml
+
+## Managing blog entries
+
+These appear in the top of the home page. So you can use this for various
+features and product sections. Just change the entries in
+[content/blog](content/blog) and you should be able to change the products and
+features as needed.
+
 ## Updating to latest theme
 
 The theme is pinned in [go.mod](go.mod) and this is set in

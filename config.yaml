@@ -94,6 +94,7 @@ menu:
     # How to link pages to the submenus
     #- parent: Homepage
     #  name: Homepage 1
+    #  This uses the layout field to change the homepage layout
     #  url: homepage/home-1
     #- parent: Homepage
     #  name: Homepage 2
