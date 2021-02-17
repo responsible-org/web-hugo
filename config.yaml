@@ -1,8 +1,7 @@
 ---
 # baseURL needs to be the real location of the system if it is / then it will
 # work for the test site
-BaseURL: "https:/w
-responsible.org"
+baseURL: "https://responsible.org"
 languageCode: en-us
 title: Responsible.org
 module:
@@ -87,9 +86,19 @@ params:
     URL: https://github.com/responsible-org
 menu:
   main:
-  - name: About
-    URL: about
-    weight: "2"
-  - name: Contact
-    URL: contact
-    weight: "3"
+    - name: Homepage
+      url: ''
+      weight: 1
+      hasChildren: true
+    - parent: Homepage
+      name: Homepage 1
+      url: homepage/home-1
+    - parent: Homepage
+      name: Homepage 2
+      url: homepage/home-2
+    - name: About
+      URL: about
+      weight: "2"
+    - name: Contact
+      URL: contact
+      weight: "3"

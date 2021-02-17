@@ -1,0 +1,135 @@
+# default config
+baseURL = "https://responsible.org"
+languageCode = "en-us"
+title = "Responsible.org"
+theme = "parsa-hugo"
+summaryLength = "20"
+paginate = 5
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+
+# using the module mounting to get the statis in the right place
+
+
+# output
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/headroom/headroom.js"
+[[params.plugins.js]]
+link = "plugins/instafeed/instafeed.min.js"
+[[params.plugins.js]]
+link = "plugins/masonry/masonry.js"
+[[params.plugins.js]]
+link = "plugins/reading-time/readingTime.min.js"
+[[params.plugins.js]]
+link = "plugins/smooth-scroll/smooth-scroll.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+
+# Instagram feed
+[params.instafeed]
+enable = true
+access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
+
+  # social site
+  [[params.social]]
+  icon = "ti-facebook"
+  url = "https://facebook.com"
+
+  [[params.social]]
+  icon = "ti-twitter-alt"
+  url = "https://twitter.com"
+
+  [[params.social]]
+  icon = "ti-linkedin"
+  url = "https://linkedin.com"
+
+  [[params.social]]
+  icon = "ti-github"
+  url = "https://github.com/responsible-org
+
+# navigation
+
+[[menu.main]]
+name = "Homepage"
+url = ""
+weight = 1
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Homepage"
+  name = "Homepage 1"
+  url = "homepage/home-1"
+
+  [[menu.main]]
+  parent = "Homepage"
+  name = "Homepage 2"
+  url = "homepage/home-2"
+
+# this is from the old template
+#[[menu.main]]
+#name = "About"
+#url = "about"
+#weight = 2
+#[[menu.main]]
+#name = "Contact"
+#url = "contact"
+#weight = 3
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+# default parameter
+[params]
+logo = "images/responsible.org.logo.medium.png"
+home = "Home"
+# theme layout ( two layout is available, "1" and "2" )
+layout = "2"
+# Meta data
+description = "Responsible.org Website"
+# Preloader
+preloader = true
+# search
+search = true
+# about author
+author = "Responsible.org"
+author_image = "images/nathan-dumlao-4_mJ1TbMK8A-unsplash.jpg"
+bio = """
+Responsible.org&trade; promotes responsible gun purchase, ownership, and use. We
+feature information on public policy and legislative issues as well as research
+services in the field. We also organize educational events focused on responsible
+gun ownership. We conduct virtual and in-person seminars, lectures, workshops,
+panel discussions and forums.
+"""
+# Contact inf"o
+contact_form_action = "#"
+mobile = "(307) 463-1680"
+email = "info@responsible.org"
+address = "15433 NE 95th St, Redmond, WA 98052"
+# Contact Form Action
+contact_form_action = "#"
+google_analytics_id = "Your ID"
+copyright = "Copyright &copy; 2018-2020 Responsible.org&trade;.Theme by [themefisher.com](https://themefisher.com)"
