@@ -1,6 +1,6 @@
 ---
 # baseURL needs to be the real location of the system if it is / then it will
-# work for the test site
+# work for the test site now needs to be public for netlify
 baseURL: "https://responsible.org"
 languageCode: en-us
 title: Responsible.org
